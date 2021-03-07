@@ -9,12 +9,254 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Jumbotron, featurettes, lists and tables</title>
+
+    <style>
+      @import url("https://use.typekit.net/srm4ugk.css");
+
+        * {
+          font-family: proxima-nova, sans-serif;
+        }
+
+        .navbar-brand img {
+          max-width: 250px;
+        }
+
+        .navbar-brand-logo img {
+          max-width: 30px;
+        }
+
+        .welcome {
+          font-family: ballers-delight, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        .lead {
+          font-family: proxima-nova, sans-serif;
+          font-weight: 400;
+          font-style: normal;         
+        }
+
+        .table-contain {
+          text-align: center;
+        }
+
+        .one {
+          margin-top: 2rem;
+        }
+
+        .two {
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+
+        .featimg, .col-md-7 {
+          margin: 1rem 0;
+        }
+    </style>
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+
+    <header></header>
+
+    
+
+    <main>
+
+      <section class="py-10 container-fluid" style="background-image: url('/week_03/hw/img/grounds.jpeg'); background-size: cover; background-repeat: no-repeat; ">
+        <div class="row py-5">
+          <div class="col-md-6 col-sm-7 col-xs-1 float-start ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+            <h1 class="welcome text-white">Welcome to Grounds</h1>
+            <p class="lead copy text-white">Mon - Sat 8AM - 6PM<br>Sun 10AM - 5PM</p>
+            <p>
+              <!--<a href="#" class="btn btn-primary my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>-->
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="row featurette ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Smooth and aromatic <span class="text-muted">pour overs</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu non sodales neque. Porttitor leo a diam sollicitudin tempor id eu. Praesent elementum facilisis leo vel fringilla est ullamcorper. </p>
+        </div>
+        <div class="col-md-5">
+          <picture>
+            <source media="(min-width: 1400px)" srcset="/week_03/hw/img/pourover550.jpg">
+            <source media="(min-width: 992px)" srcset="/week_03/hw/img/pourover500.jpg">
+            <source media="(min-width: 768px)" srcset="/week_03/hw/img/pourover350.jpg">
+            <img class="img-fluid featimg" src="/week_03/hw/img/pourover500.jpg" alt="plant">
+        </picture>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Crisp perfectly crafted <span class="text-muted">loose leaf teas</span></h2>
+          <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <picture>
+            <source media="(min-width: 1400px)" srcset="/week_03/hw/img/looseleaf550.jpg">
+            <source media="(min-width: 992px)" srcset="/week_03/hw/img/looseleaf500.jpg">
+            <source media="(min-width: 768px)" srcset="/week_03/hw/img/looseleaf350.jpg">
+            <img class="img-fluid featimg" src="/week_03/hw/img/looseleaf500.jpg" alt="plant">
+        </picture>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+  
+      <div class="row featurette ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fresh homemade specialty <span class="text-muted">small bites</span></h2>
+          <p class="lead">Netus et malesuada fames ac turpis egestas maecenas pharetra. Morbi blandit cursus risus at ultrices. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Tempor orci dapibus ultrices in. Odio eu feugiat pretium nibh ipsum consequat nisl. Tempus quam pellentesque nec nam aliquam sem et tortor consequat. Lectus nulla at volutpat diam ut venenatis tellus in metus. 
+            </p>
+        </div>
+        <div class="col-md-5">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="/week_03/hw/img/bagel550.jpg">
+                <source media="(min-width: 992px)" srcset="/week_03/hw/img/bagel500.jpg">
+                <source media="(min-width: 768px)" srcset="/week_03/hw/img/bagel350.jpg">
+                <img class="img-fluid featimg" src="/week_03/hw/img/bagel500.jpg" alt="plant">
+            </picture>
+  
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="table-contain one ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+      <h3>Drinks</h3>
+  
+      <table class="table table-dark table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Coffee</th>
+            <th scope="col">Description</th>
+            <th scope="col">Small (8 oz)</th>
+            <th scope="col">Large (16 oz)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Drip Coffee</th>
+            <td>Blend</td>
+            <td>3.50</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Pour Over</th>
+            <td>Single Origin</td>
+            <td>5.50</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Cold Brew</th>
+            <td>Nitro</td>
+            <td>5</td>
+            <td>5.50</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th scope="col">Loose Leaf Tea</th>
+            <th scope="col">Description</th>
+            <th colspan="2">One Size (16 oz)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Green</th>
+            <td>Moroccan Fresh Mint, Jasmine, Jade Cloud</td>
+            <td colspan="2">4</td>
+          </tr>
+          <tr>
+            <td>Rare</th>
+            <td>Sencha, Ruby Oolong, Pai Mu Tan</td>
+            <td colspan="2">5</td>
+          </tr>
+          <tr>
+            <td>Herbal</th>
+            <td>Peppermint, Rooibos, Chamomile</td>
+            <td colspan="2">3.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-contain two ms-lg-5 me-md-5 ms-sm-4 me-sm-2 mx-auto">
+      <h3>Small Bites</h3>
+  
+      <table class="table table-dark table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Noms</th>
+            <th scope="col">Description</th>
+            <th scope="col">$</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Housemade Sourdough & Jam</th>
+            <td>Toasted with butter served with housemade jam</td>
+            <td>6</td>
+
+          </tr>
+          <tr>
+            <td>Organic Chia Parfait</th>
+            <td>Housemade granola and strawberry chia jam with vanilla yogurt</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Bagel with Cream Cheese</th>
+            <td>Housemade bagel with freshly whipped cream cheese</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<br><br><br>
+
+    </main>
+    
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #000;">
+      <div class="container-fluid justify-content-start">
+        <a class="navbar-brand" href="#">
+          <img src="/week_03/hw/img/logo.jpg" alt="Grounds" class="img-fluid"/>
+        </a>
+        <button class="btn" type="button"><a class="navbar-brand-logo" href="#">
+          <img src="/week_03/hw/img/instagram.png" alt="Instagram" class="img-fluid"/>
+        </a></button>
+        <button class="btn" type="button"><a class="navbar-brand-logo" href="#">
+          <img src="/week_03/hw/img/yelp.png" alt="Yelp" class="img-fluid"/>
+        </a></button>
+      </div>
+    </nav>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
   </body>
 </html>
+
+<!--
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="navbar-brand-logo" href="#">
+        <img src="/week_03/hw/img/instagram.png" alt="Instagram" class="img-fluid"/>
+      </a>
+    </li>
+    <li class="nav-item">
+      
+    </li>
+  </ul>
+  
+</div>
+-->
