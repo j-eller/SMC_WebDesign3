@@ -9,56 +9,101 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
 <style>
-   
-body {
-   ;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+     
+     * {
+        font-family: 'Ubuntu', sans-serif;
+        color: #5E5A59;
+     }
+
+.logo a {
+    font-family: 'Lobster', cursive;
+    color: #385959;
 }
 
-.py-10 {
-    margin: 2rem 0;
-    border-radius: 10px;
+.jumbotron {
+    margin: 1rem 0;
 }
 
-.card {
-    background-color: #BFAEA4;
+.title strong {
+    font-family: 'Lobster', cursive;
+    color: #BC8909;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.header-h2 {
+    color: #5E5A59;
+
+}
+
+.header-copy {
+    margin: 3rem;
+}
+
+.jumbo-trans {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.card-header {
+    background-color: #DEB1AD;
+}
+
+.card-img-top {
+    margin-bottom: 1rem;;
 }
 
 .butt {
   transition-duration: 0.4s;
-  background-color: #F2EDE4;"
+  background-color: #86A6A6;
+  color: white;
 }
 
 .butt:hover {
-  background-color: #59583F; 
+  background-color: #385959; 
   color: white;
 }
- {
-opacity: 0.2;
-color: #fff;
+
+nav a, a {
+    transition-duration: 0.4s;
+    color: #385959;
+    text-decoration: none;
 }
-   
+
+nav a:hover, a:hover {
+  color: #DEB1AD; 
+}
+
+.blog-post-title, h3 {
+    color: #385959;
+}
+
+.lead, p {
+    color: #5E5A59;
+}
+
 </style>
 
-    <title>Fun!</title>
+    <title>Plantmania</title>
   </head>
   <body>
 
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
-        <p class="h5 my-0 me-md-auto fw-normal">Company name</p>
+        <p class="logo h2 my-0 me-md-auto fw-normal"><a href="#">Plantmania</a></p>
         <nav class="my-2 my-md-0 me-md-3">
-          <a class="p-2 text-dark" href="#">Features</a>
-          <a class="p-2 text-dark" href="#">Enterprise</a>
-          <a class="p-2 text-dark" href="#">Support</a>
+          <a class="p-2" href="#">All Plants</a>
+          <a class="p-2" href="#">Shop</a>
+          <a class="p-2" href="#">Contact Us</a>
         </nav>
       </header>
       
       <main class="container">
 
-        <section class="py-10 container-fluid" style="background-image: url('/week_04/img/plants.jpeg'); background: rgba(76, 175, 80, 0.03); background-repeat: no-repeat; background-size: cover;">
-            <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Album example</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <section class="jumbotron py-10 container-fluid" style="background-image: url('/week_04/img/plants.jpeg');  background-repeat: no-repeat; background-size: cover;">
+            <div class="jumbo-trans row py-lg-5">
+              <div class="header-copy col-lg-6 col-md-8 mx-auto">
+                <h1 class="title text-center"><strong>Plantmaniacs</strong>,</h1>
+                <h2 class="header-h2 text-center">Learn more about your favorite plants here!</h2>
               </div>
             </div>
           </section>
@@ -67,68 +112,44 @@ color: #fff;
           <div class="col">
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
-              <h4 class="my-0 fw-normal">Free</h4>
+              <h5 class="my-0 fw-normal">Begonia Maculata</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="butt w-100 btn btn-lg">Learn More</button>
+              <img class="card-img-top" src="/week_04/img/spots.jpeg" alt="cool cat">
+              <button type="button" class="butt w-100 btn btn-md">Learn More</button>
             </div>
           </div>
           </div>
           <div class="col">
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
-              <h4 class="my-0 fw-normal">Pro</h4>
+              <h5 class="my-0 fw-normal">Pothos</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="butt w-100 btn btn-lg">Learn More</button>
+                <img class="card-img-top" src="/week_04/img/pothos.jpeg" alt="cool cat">
+              <button type="button" class="butt w-100 btn btn-md">Learn More</button>
             </div>
           </div>
           </div>
           <div class="col">
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
+              <h5 class="my-0 fw-normal">Pink Syngonium</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="butt w-100 btn btn-lg">Learn More</button>
+                <img class="card-img-top" src="/week_04/img/pink.jpeg" alt="cool cat">
+              <button type="button" class="butt w-100 btn btn-md">Learn More</button>
             </div>
           </div>
           </div>
           <div class="col">
             <div class="card mb-4 shadow-sm">
             <div class="card-header">
-              <h4 class="my-0 fw-normal">Enterprise</h4>
+              <h5 class="my-0 fw-normal">Hoya Kerrii</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="butt w-100 btn btn-lg">Learn More</button>
+                <img class="card-img-top" src="/week_04/img/hoya.jpeg" alt="hoya kerrii">
+              <button type="button" class="butt w-100 btn btn-md">Learn More</button>
             </div>
           </div>
           </div>
@@ -136,23 +157,25 @@ color: #fff;
 
 
         <article class="blog-post">
-            <h2 class="blog-post-title">Sample blog post</h2>
+            <h2 class="blog-post-title">How to Be A Good Plant Mama/Papa</h2>
             <p class="lead">This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-           
-            <h3>Sub-heading</h3>
+            
+           <br>
+
+            <h3>Choosing the Right Plants For You</h3>
 
             <p>Basic typography, images, and code are all supported. Yeah, she dances to her own beat. Oh, no. You could've been the greatest. 'Cause, baby, you're a firework. Maybe a reason why all the doors are closed. Open up your heart and just let it begin. So très chic, yeah, she's a classic.</p>
 
             <p>Bikinis, zucchinis, Martinis, no weenies. I know there will be sacrifice but that's the price. This is how we do it. I'm not sticking around to watch you go down. You think you're so rock and roll, but you're really just a joke. I know one spark will shock the world, yeah yeah. Can't replace you with a million rings.</p>
 
             <p>Trying to connect the dots, don't know what to tell my boss. Before you met me I was alright but things were kinda heavy. You just gotta ignite the light and let it shine. Glitter all over the room pink flamingos in the pool. </p>
-          </article><!-- /.blog-post -->
-    
+          </article>
+    <br>
         </main>
 
         <footer class="footer mt-auto py-3 bg-light">
             <div class="container">
-              <span class="text-muted">Place sticky footer content here.</span>
+                <p class="logo h2 my-0 me-md-auto fw-normal"><a href="#">Plantmania</a></p>
             </div>
         </footer>
 
