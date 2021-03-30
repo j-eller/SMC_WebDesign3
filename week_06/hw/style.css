@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=New+Tegomin&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #5e5a59;
+}
+
+.logo a {
+  font-family: "New Tegomin", serif;
+  color: #385959;
+}
+
+.jumbotron {
+  margin: 1rem 0;
+}
+
+.title strong {
+  font-family: "New Tegomin", serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.card-header h5,
+.header-h2 {
+  color: #5e5a59;
+  font-family: "New Tegomin", serif;
+}
+
+.card-img-top {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-family: "New Tegomin", serif;
+}
+
+.butt {
+  transition-duration: 0.4s;
+  background-color: darkgray;
+  color: white;
+}
+
+.butt:hover {
+  background-color: gray;
+  color: white;
+}
+
+nav a,
+a {
+  transition-duration: 0.4s;
+  color: #385959;
+  text-decoration: none;
+}
+
+nav a:hover,
+a:hover {
+  color: #86a6a6;
+}
+
+.blog-post-title,
+h3 {
+  font-family: "New Tegomin", serif;
+  color: #385959;
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .man-img {
+    width: 100%;
+  }
+}
