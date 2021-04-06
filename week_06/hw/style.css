@@ -3,6 +3,7 @@
 * {
   font-family: "Carrois Gothic SC", sans-serif;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   text-align: justify;
@@ -109,5 +110,9 @@ footer {
 @media screen and (max-width: 767px) {
   .man-img {
     width: 100%;
+  }
+
+  .modal {
+    max-width: 100%;
   }
 }
