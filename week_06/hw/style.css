@@ -112,6 +112,10 @@ footer {
     width: 100%;
   }
 
+  .walrus {
+    font-size: 1rem;
+  }
+
   .modal-content {
     max-width: 85%;
   }
