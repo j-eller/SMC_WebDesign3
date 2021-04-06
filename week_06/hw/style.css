@@ -2,11 +2,6 @@
 
 * {
   font-family: "Carrois Gothic SC", sans-serif;
-  color: #5e5a59;
-}
-
-.logo a {
-  color: #385959;
 }
 
 .jumbotron {
@@ -18,13 +13,8 @@
   font-size: 4rem;
 }
 
-.card-header {
-  background-color: #fff;
-}
-
-.card-header h5,
 .header-h2 {
-  color: #5e5a59;
+  color: #363636;
 }
 
 .card-img-top {
@@ -35,19 +25,48 @@
   font-size: 1.5rem;
 }
 
-.butt {
+.carousel-inner .btn {
+  background-color: #86a6a6;
+  border: none;
+  color: white;
   transition-duration: 0.4s;
 }
 
-.butt:hover {
+.carousel-inner .btn:hover {
+  background-color: transparent;
+  border: none;
   color: white;
+}
+
+.font-black {
+  color: black;
+  font-size: 3rem;
+}
+
+.font-white {
+  color: white;
+  font-size: 3rem;
+}
+
+.butt {
+  transition-duration: 0.4s;
+  color: #363636;
+}
+
+.butt:hover {
+  color: #86a6a6;
 }
 
 nav a,
 a {
   transition-duration: 0.4s;
   text-decoration: none;
-  color: white;
+  color: #363636;
+}
+
+article h4,
+article p {
+  color: #5e5a59;
 }
 
 nav a:hover,
@@ -57,11 +76,23 @@ a:hover {
 
 .blog-post-title,
 h3 {
-  color: #385959;
+  color: #363636;
 }
 
 .navbar-brand img {
   max-width: 60px;
+}
+
+.jumbotron {
+  margin: 1rem 0;
+}
+
+.jumbo-trans {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+  background-color: whitesmoke;
 }
 
 @media screen and (max-width: 767px) {
