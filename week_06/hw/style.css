@@ -26,17 +26,20 @@
 }
 
 .carousel-inner .btn,
-.about-btn {
+.about-btn,
+.modal .btn {
   background-color: #86a6a6;
   border: none;
   color: white;
   transition-duration: 0.4s;
 }
 
-.carousel-inner .btn:hover {
+.carousel-inner .btn:hover,
+.about-btn:hover,
+.modal .btn:hover {
   background-color: transparent;
   border: none;
-  color: white;
+  color: #363636;
 }
 
 .font-black {
