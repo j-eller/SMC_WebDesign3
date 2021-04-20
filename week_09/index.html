@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Examples</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        section {
+            min-height: 300px;
+            width: 100vw;
+        }
+
+        .grad1 {
+            background-image: linear-gradient(146deg, lightblue -40%, lightpink);
+        }
+
+        .grad2 {
+            background-image: linear-gradient(146deg, lightblue, lightpink 60%);
+        }
+
+        .grad3 {
+            background-image: linear-gradient(to right,rgb(255, 255, 132) 7%,lightpink, violet,  lightblue, lightgreen,teal 93%);
+        }
+
+        .grad4 {
+            background-image: repeating-linear-gradient(to right, lightblue, lightgreen 10%,teal 20%, lightgreen 30%, lightblue 40%);
+        }
+
+        .grad5 {
+            background-image: radial-gradient(circle closest-side at 15% 60%, lightblue, teal);
+        }
+
+        .grad6 {
+            background-image: repeating-radial-gradient(circle closest-corner at 30% 50%, lightblue , teal 10% , lightgreen 20%);
+        }
+
+        .frame {
+            position: relative;
+        }
+
+        .grad7 {
+            background-image: linear-gradient(90deg, rgba(166,213,182,1) 0%, rgba(9,9,121,0) 35%, rgba(0,212,255,0) 100%);
+            position: absolute;
+        }
+
+        .img-background {
+            background-image: url('plants.jpeg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!--Linear Gradients-->
+    <section class="grad1"></section>
+    <section class="grad2"></section>
+    <section class="grad3"></section>
+    <section class="grad4"></section>
+<!--Radial Gradients-->
+    <section class="grad5"></section>
+    <section class="grad6"></section>
+<div class="frame">
+    <section class="grad7">
+        <h1>Hello</h1>
+    </section>
+    <section class="img-background"><section>
+    </section>
+</div>
+
+</body>
+</html>
