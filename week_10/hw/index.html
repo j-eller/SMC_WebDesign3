@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peace Circle</title>
     <style>
-        @keyframes circle {
+ @keyframes circle {
   from {
-    border-radius: 0%;
+    border-radius: 50%;
+    transform: scale(.5, .5)
   }
   to {
     border-radius: 100%;
+    transform: scale(1, 1)
   }
 }
 
@@ -20,8 +22,8 @@ div {
   height: 100px;
   background-color: lightblue;
   animation-name: circle;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  animation-duration: 3.5s;
+  animation-delay: 2.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -88,7 +90,7 @@ body {
     <div class="peace">
         <span class="peace__inner"></span>
         <span class="peace__inner"></span>
-        <div class="circle"></div>
+        
     </div>
       
 </body>
